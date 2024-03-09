@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-card {
+  background-color: hsl(0, 0%, 100%);
+  width: 380px;
+  height: 520px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 18px;
+  box-shadow: 10px 10px 0px -1px black;
+  transition: box-shadow 0.2s ease;
+}
+
+.info-card:hover {
+  box-shadow: 20px 20px 0px -1px black;
+}
+
+.illustration-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.learning-text {
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 6px 15px;
+  display: inline-block;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 5px;
+}
+
+.main-heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: inline-block;
+  margin: 1.1rem 0;
+  transition: color 0.2s ease;
+}
+
+.main-heading:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.explanation-text {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-picture {
+  margin-right: 10px;
+  width: 2rem;
+}
+
+.name {
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  bottom: 2%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution p{
+  margin: 10px 0px;
+}
